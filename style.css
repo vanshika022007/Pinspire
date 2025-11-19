@@ -24,9 +24,10 @@ body{
 }
 
 .logo{
-  font-size:22px;
+  font-size:32px;
   font-weight:bold;
   color:#c36bff;
+  margin-top: 14px;
 }
 
 .nav-right a{
@@ -45,15 +46,18 @@ body{
 .nav-right .active{
   color:#a948ff;
   font-weight:bold;
+  font-size: 20px;
 }
 
 .search-wrap input{
   padding:10px 15px;
-  width:260px;
+  width:278px;
   border:1px solid #d9c9ff;
   border-radius:20px;
   outline:none;
   transition:0.3s;
+  float: right;
+  margin-right: 5px;
 }
 
 .search-wrap input:focus{
@@ -163,20 +167,6 @@ body{
   margin-top:20px;
 }
 
-@media(max-width:800px){
-  .masonry{
-    column-count:2;
-  }
-}
-
-@media(max-width:500px){
-  .masonry{
-    column-count:1;
-  }
-  .search-wrap input{
-    width:150px;
-  }
-}
 
 .img{
   width: 10%;
@@ -226,6 +216,7 @@ body{
   height: 220px;
   width: 220px;
   border-radius: 100%;
+  border: 3px solid white;
 }
 
 .form{
@@ -273,4 +264,24 @@ input{
 .a{
   margin-left: 20px;
   color: #b380ff;
+}
+
+.logo2{
+  height: 55px;
+  width: 55px;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
+.logo3{
+  display: flex;
+}
+
+.search{
+  height: 40px;
+  font-size: 17px;
+}
+
+.b, .pr, .po, .h{
+  font-size: 19px;
 }
