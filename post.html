@@ -16,7 +16,6 @@
     </div>
     </div>
 
-    <div class="left">
     <nav class="nav-right">
     <a href="home.html" class="h">Home</a>
     <a href="boards.html" class="b">Boards</a>
@@ -26,29 +25,28 @@
 
     </header>
 
-
+     <div class="left">
     <main class="container">
     <section class="post-area">
 
         <br>
         <div class="create-post">
-        <h2>Create New Post</h2>
-
+        <h2 class="post-title">Create New Post</h2>
+        <br>
         <form class="new-post-form">
             <br>
-                <input type="file">
+                <input type="file" class="input1">
             <br>
             <br>
-            <label>Title
-            <input type="text" placeholder="Post title">
+            <div class="form">
+            <label class="f">Title:
+            <input type="text" placeholder="Post title" class="input2">
             </label>
 
             <br>
             <br>
-            <label>Description
-            <br>
-            <br>
-            <textarea rows="4" placeholder="Describe your idea..."></textarea>
+            <label class="f">Description:
+            <textarea rows ="1" placeholder="Describe your idea...." class="input3"></textarea>
             </label>
             <br>
             <br>
@@ -58,15 +56,17 @@
             <br>
 
             <div class="your-posts">
-            <h3>Your Posts</h3>
+            <h3 class="h3">Your Posts</h3>
             <div class="masonry small">
+            <div class="flex">
             <article class="pin">
                 <img src="post1.jpeg" alt="p" class="image">
                 <div class="pin-overlay">
                     <h3>Panda</h3>
                 </div>
             </article>
-
+            </div>
+            <div class="flex">
             <article class="pin">
                 <img src="post2.jpeg" alt="p" class="image">
                 <div class="pin-overlay">
@@ -75,10 +75,13 @@
             </article>
             </div>
             </div>
+            </div>
+            </div>
 
             </section>
         </main>
         </div>
+    </div>
 
     </body>
 </html>
