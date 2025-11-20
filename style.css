@@ -228,18 +228,19 @@ body{
 }
 
 .form{
-  color: #a948ff;
+  color: #b82a6f;
   font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .sign{
   font-size: 30px;
-  color: #6f4f92;
+  color: #b03b70;
 }
 
 .input{
   font-size: 20px;
-  color: #6a2aae;
+  color: #ca3295;
 }
 
 input{
@@ -247,8 +248,9 @@ input{
 }
 
 .tagline{
-  color: #6a2aae;
-  font-size: 17px;
+  color: #b72a94;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .btn{
@@ -263,9 +265,9 @@ input{
 }
 
 .login{
-  color: white;
+  color: black;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .placeholder{
@@ -274,7 +276,7 @@ input{
 
 .a{
   margin-left: 20px;
-  color: #b380ff;
+  color: #e944b7;
 }
 
 .logo2{
@@ -321,7 +323,7 @@ input{
   color: rgb(220, 103, 161);
 }
 
-.form{
+.form1{
   color: #d179ab;
   font-size: 25px;
   font-weight: 595;
