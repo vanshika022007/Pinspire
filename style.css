@@ -394,7 +394,6 @@ input{
 
   .search-wrap input{
     width: 90%;
-    float: none;
     margin: 10px auto;
     display: block;
   }
