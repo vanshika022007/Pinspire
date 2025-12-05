@@ -475,3 +475,22 @@ input{
     font-size: 18px;
   }
 }
+
+.dark {
+    background-color: #383737;
+    color: white;
+}
+
+#mode{
+  margin-left: 1450px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: 1px solid rgb(247, 247, 66);
+  margin-top: -15px;
+  margin-bottom: 7px;
+}
+
+body.dark .nav{
+  background-color: #222;
+}
