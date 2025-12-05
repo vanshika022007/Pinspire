@@ -1,5 +1,3 @@
-alert("Welcome to Pinspire🩷");
-
 const modeBtn = document.getElementById("mode");
 modeBtn.addEventListener("click", () => {
     document.body.classList.toggle("dark");
@@ -12,8 +10,3 @@ likeBtns.forEach(btn => {
         count.innerText = Number(count.innerText) + 1;
     });
 });
-
-function showPassword() {
-  let p = document.getElementById("pass");
-  p.type = p.type === "password" ? "text" : "password";
-};
