@@ -12,3 +12,8 @@ likeBtns.forEach(btn => {
         count.innerText = Number(count.innerText) + 1;
     });
 });
+
+function showPassword() {
+  let p = document.getElementById("pass");
+  p.type = p.type === "password" ? "text" : "password";
+};
