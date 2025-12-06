@@ -34,7 +34,7 @@
          <h2 class="profile1" id="profilename">Vanshika</h2>
         </div>
     <div class="profile-info">
-         <p class="profile2">@vanshika • 24 Pins • 120 Followers</p>
+         <p class="profile2" id="username">@vanshika • 24 Pins • 120 Followers</p>
     <br>
          <button class="btn small" id="editBtn">Edit Profile</button>
     <br>
@@ -72,7 +72,11 @@
         edit.addEventListener("click", () => {
             let name = document.getElementById("profilename");
             let newName = prompt("Enter new name:");
-            if (newName) name.textContent = newName;
+            let username = document.getElementById("username");
+            if (newName) {
+                name.textContent = newName
+                username.textContent = `${newName} • 24 Pins • 120 Followers`;
+            };
         })
     </script>
 </html>
