@@ -440,39 +440,92 @@ input{
 
 }
 
-@media (max-width: 480px){
+@media (max-width: 1024px){
 
   .nav-right a{
-    font-size: 14px;
-    margin-left: 5px;
-  }
-
-  .logo{
-    font-size: 22px;
+    font-size: 16px;
+    margin-left: 10px;
   }
 
   .search{
+    width: 250px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .pins-container{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px){
+
+  .nav-right a{
+    font-size: 14px;
+    margin-left: 8px;
+  }
+
+  .logo{
+    font-size: 24px;
+  }
+
+  .search{
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .pins-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .profile-section{
+    text-align: center;
+  }
+
+  .btn{
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px){
+
+  .nav-right a{
+    font-size: 12px;
+    margin-left: 4px;
+  }
+
+  .logo{
+    font-size: 18px;
+  }
+
+  .search{
+    width: 160px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .story img{
+    width: 55px;
+    height: 55px;
+  }
+
+  .pin-overlay h3{
+    font-size: 14px;
+  }
+
+  .btn{
+    width: 90px;
     height: 40px;
     font-size: 16px;
   }
 
-  .story img{
-    width: 60px;
-    height: 60px;
-  }
-
-  .h2{
-    font-size: 28px;
-  }
-
-  .pin-overlay h3{
-    font-size: 16px;
-  }
-
-  .btn{
-    width: 100px;
-    height: 45px;
-    font-size: 18px;
+  .pins-container{
+    grid-template-columns: 1fr;
   }
 }
 
