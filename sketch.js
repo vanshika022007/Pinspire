@@ -15,3 +15,10 @@ function showPassword() {
   let p = document.getElementById("pass");
   p.type = p.type === "password" ? "text" : "password";
 };
+
+let publish = document.getElementById("publishBtn");
+publish.addEventListener("click", () => {
+    if(document.getElementById("titlep").value != "" && document.getElementById("describe").value != "" && document.getElementById("file").value != ""){
+    alert("Your post has been successfully published.");
+    }
+})

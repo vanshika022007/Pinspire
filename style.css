@@ -491,6 +491,10 @@ input{
   margin-bottom: 7px;
 }
 
+#mode:hover{
+  cursor: pointer;
+}
+
 body.dark .nav{
   background-color: #222;
 }
